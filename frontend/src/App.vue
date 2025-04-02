@@ -1,10 +1,7 @@
-<script lang="ts" setup>
-import Home from './components/Home.vue';
-</script>
-
 <template>
-  <div id="app">
-    <Home />
-  </div>
+  <Home />
 </template>
 
+<script setup lang="ts">
+//
+</script>
