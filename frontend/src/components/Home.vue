@@ -20,7 +20,7 @@ const data = reactive({
   },
 });
 
-function 搜索游戏() {
+const 搜索游戏 = () => {
   console.log(data.搜索关键词);
   if (data.搜索关键词 === "") {
     return;
@@ -31,7 +31,7 @@ function 搜索游戏() {
       console.log(result);
     });
   }
-}
+};
 </script>
 
 <template>
@@ -56,7 +56,6 @@ function 搜索游戏() {
 </template>
 
 <style lang="css" scoped>
-/* 设置文本颜色 */
 .mx-auto {
   color: #000;
   background-color: antiquewhite;
